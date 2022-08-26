@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center">
+      <button
+        type="button"
+        class="btn btn-dark"
+        id="launch"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        BREAKING BAD DIALOG
+      </button>
+      <div
+        class="modal mt-6"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog w-100 h-100" role="document">
+          <div class="modal-content ms-auto me-auto">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLabel">Breaking Bad</h3>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+                id="close"
+              >
+                Close
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="./img/when-will-breaking-bad-leave-netflix.webp"
+                width="100%"
+                class="mb-5"
+                alt=""
+              />
+              <p class="fs-4 mb-4 mt-3">
+                <span class="d-block"> Skyler White : </span>
+               Walt, please, let's both of us stop trying to
+                justify this whole thing and admit you're in danger!
+              </p>
+              <p class="fs-4">
+                <span class="d-block">Walter White :</span>
+                you clearly don't know who you're talking to, so
+                let me clue you in. I am not in danger, Skyler. I am the danger.
+                A guy opens his door and gets shot and you think that of me? No.
+                I am the one who knocks!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
